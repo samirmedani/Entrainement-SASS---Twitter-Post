@@ -1,0 +1,22 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6B5B95;
+  height: 100vw;
+}
+
+.supercontainer {
+  background-color: #88B04B;
+}
+
+.supercontainer:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #34568B;
+}
+/*# sourceMappingURL=style.css.map */

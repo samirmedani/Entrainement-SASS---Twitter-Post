@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+$Bodybackground: #6B5B95;
+$Superbackground: #88B04B;
+$Superbackground2: #34568B;
+
+body {
+    background-color: $Bodybackground;
+    height: 100vw;
+}
+
+
+.supercontainer {
+    background-color: $Superbackground;
+
+    &:hover {
+        transition: 0.3s;
+        background-color: $Superbackground2;
+
+    }
+}
