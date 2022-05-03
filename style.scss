@@ -1,26 +1,66 @@
+:root{
+    --background : #15202B;
+    --textcolor2 : #71767B;
+}
+
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
-
-$Bodybackground: #6B5B95;
-$Superbackground: #88B04B;
-$Superbackground2: #34568B;
-
 body {
-    background-color: $Bodybackground;
-    height: 100vw;
+    background-color: var(--background);
 }
 
 
-.supercontainer {
-    background-color: $Superbackground;
+.container-tweet {
+    position: relative;
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: var(--background);
+    padding: 15px 0px;
+    color: white;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
 
-    &:hover {
-        transition: 0.3s;
-        background-color: $Superbackground2;
+    
 
+
+    .container-top-tweet {
+        display: flex;
+        align-items: center;
+
+        img.avatar-author {
+    
+            width: 60px;
+            border-radius: 50%;
+        }
+        
+        .information-author {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-left: 1em;
+
+            .mention-author {
+                color: var(--textcolor2)
+            }
+
+        }
     }
+    
 }
+
+.tweet {
+    margin-top: 1em;
+    font-weight: 550;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
